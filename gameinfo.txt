@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game			"Brotherhood OF Arms"
+	game			"Brotherhood of Arms"
 	gamelogo 		1
 	title 			""
 	title2			""
