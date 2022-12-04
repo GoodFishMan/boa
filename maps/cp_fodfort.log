@@ -1,0 +1,2250 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "brick/blendtestwall001_watergate" not found.
+Material not found!: BRICK/BLENDTESTWALL001_WATERGATE
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1244108 bytes)
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Error loading studio model "models/props_soho/door002.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1370 texinfos to 1113
+Reduced 153 texdatas to 128 (5038 bytes to 3827)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 12
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5649 faces
+1167373 square feet [168101728.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5649 patches before subdivision
+99217 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11515462, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(847028, 461310, 326828)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192402, 97108, 63949)
+Build Patch/Sample Hash Table(s).....Done<0.0160 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/1024          672/49152    ( 1.4%) 
+brushes               1893/8192        22716/98304    (23.1%) 
+brushsides           12083/65536       96664/524288   (18.4%) 
+planes                2416/65536       48320/1310720  ( 3.7%) 
+vertexes              9567/65536      114804/786432   (14.6%) 
+nodes                 2439/65536       78048/2097152  ( 3.7%) 
+texinfos              1113/12288       80136/884736   ( 9.1%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5649/65536      316344/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3503/65536      196168/3670016  ( 5.3%) 
+leaves                2454/65536       78528/2097152  ( 3.7%) 
+leaffaces             7176/65536       14352/131072   (10.9%) 
+leafbrushes           4657/65536        9314/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42511/512000     170044/2048000  ( 8.3%) 
+edges                26550/256000     106200/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4520696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      102246/393216   (26.0%) 
+LDR ambient table     2454/65536        9816/262144   ( 3.7%) 
+HDR ambient table     2454/65536        9816/262144   ( 3.7%) 
+LDR leaf ambient     12023/65536      336644/1835008  (18.3%) 
+HDR leaf ambient      2454/65536       68712/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1244108/4194304  (29.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17133
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "brick/blendtestwall001_watergate" not found.
+Material not found!: BRICK/BLENDTESTWALL001_WATERGATE
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1243586 bytes)
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1364 texinfos to 1110
+Reduced 153 texdatas to 128 (5038 bytes to 3827)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 12
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5643 faces
+1167053 square feet [168055648.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5643 patches before subdivision
+99211 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11514917, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(845649, 461005, 326581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192077, 97048, 63924)
+Build Patch/Sample Hash Table(s).....Done<0.0145 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes               1892/8192        22704/98304    (23.1%) 
+brushsides           12077/65536       96616/524288   (18.4%) 
+planes                2408/65536       48160/1310720  ( 3.7%) 
+vertexes              9559/65536      114708/786432   (14.6%) 
+nodes                 2433/65536       77856/2097152  ( 3.7%) 
+texinfos              1110/12288       79920/884736   ( 9.0%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5643/65536      316008/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3497/65536      195832/3670016  ( 5.3%) 
+leaves                2447/65536       78304/2097152  ( 3.7%) 
+leaffaces             7170/65536       14340/131072   (10.9%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42461/512000     169844/2048000  ( 8.3%) 
+edges                26527/256000     106108/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4520696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      101945/393216   (25.9%) 
+LDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+HDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+LDR leaf ambient     12017/65536      336476/1835008  (18.3%) 
+HDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1243586/4194304  (29.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17121
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "brick/blendtestwall001_watergate" not found.
+Material not found!: BRICK/BLENDTESTWALL001_WATERGATE
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1243586 bytes)
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1364 texinfos to 1110
+Reduced 153 texdatas to 128 (5038 bytes to 3827)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 12
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5643 faces
+1167053 square feet [168055648.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5643 patches before subdivision
+99211 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11514917, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(845649, 461005, 326581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192077, 97048, 63924)
+Build Patch/Sample Hash Table(s).....Done<0.0146 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes               1892/8192        22704/98304    (23.1%) 
+brushsides           12077/65536       96616/524288   (18.4%) 
+planes                2408/65536       48160/1310720  ( 3.7%) 
+vertexes              9559/65536      114708/786432   (14.6%) 
+nodes                 2433/65536       77856/2097152  ( 3.7%) 
+texinfos              1110/12288       79920/884736   ( 9.0%) 
+texdata                128/2048         4096/65536    ( 6.3%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5643/65536      316008/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3497/65536      195832/3670016  ( 5.3%) 
+leaves                2447/65536       78304/2097152  ( 3.7%) 
+leaffaces             7170/65536       14340/131072   (10.9%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42461/512000     169844/2048000  ( 8.3%) 
+edges                26527/256000     106108/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4520696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      102023/393216   (25.9%) 
+LDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+HDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+LDR leaf ambient     12017/65536      336476/1835008  (18.3%) 
+HDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1243586/4194304  (29.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17121
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1243587 bytes)
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1364 texinfos to 1110
+Reduced 152 texdatas to 127 (5005 bytes to 3794)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 11
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5643 faces
+1168077 square feet [168203104.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5643 patches before subdivision
+99255 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11521797, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(845897, 461156, 326725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192171, 97090, 63954)
+Build Patch/Sample Hash Table(s).....Done<0.0147 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes               1892/8192        22704/98304    (23.1%) 
+brushsides           12077/65536       96616/524288   (18.4%) 
+planes                2408/65536       48160/1310720  ( 3.7%) 
+vertexes              9559/65536      114708/786432   (14.6%) 
+nodes                 2433/65536       77856/2097152  ( 3.7%) 
+texinfos              1110/12288       79920/884736   ( 9.0%) 
+texdata                127/2048         4064/65536    ( 6.2%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5643/65536      316008/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3497/65536      195832/3670016  ( 5.3%) 
+leaves                2447/65536       78304/2097152  ( 3.7%) 
+leaffaces             7170/65536       14340/131072   (10.9%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42461/512000     169844/2048000  ( 8.3%) 
+edges                26527/256000     106108/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4524704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      102746/393216   (26.1%) 
+LDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+HDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+LDR leaf ambient     12017/65536      336476/1835008  (18.3%) 
+HDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1243587/4194304  (29.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17121
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1243587 bytes)
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1364 texinfos to 1110
+Reduced 152 texdatas to 127 (5005 bytes to 3794)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 11
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5643 faces
+1168077 square feet [168203104.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5643 patches before subdivision
+99255 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11521797, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(845897, 461156, 326725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192171, 97090, 63954)
+Build Patch/Sample Hash Table(s).....Done<0.0139 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes               1892/8192        22704/98304    (23.1%) 
+brushsides           12077/65536       96616/524288   (18.4%) 
+planes                2408/65536       48160/1310720  ( 3.7%) 
+vertexes              9559/65536      114708/786432   (14.6%) 
+nodes                 2433/65536       77856/2097152  ( 3.7%) 
+texinfos              1110/12288       79920/884736   ( 9.0%) 
+texdata                127/2048         4064/65536    ( 6.2%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5643/65536      316008/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3497/65536      195832/3670016  ( 5.3%) 
+leaves                2447/65536       78304/2097152  ( 3.7%) 
+leaffaces             7170/65536       14340/131072   (10.9%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42461/512000     169844/2048000  ( 8.3%) 
+edges                26527/256000     106108/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4524704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      102832/393216   (26.2%) 
+LDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+HDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+LDR leaf ambient     12017/65536      336476/1835008  (18.3%) 
+HDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1243587/4194304  (29.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17121
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1243587 bytes)
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1364 texinfos to 1110
+Reduced 152 texdatas to 127 (5005 bytes to 3794)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 11
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5643 faces
+1168077 square feet [168203104.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5643 patches before subdivision
+99255 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11521797, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(845897, 461156, 326725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192171, 97090, 63954)
+Build Patch/Sample Hash Table(s).....Done<0.0164 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes               1892/8192        22704/98304    (23.1%) 
+brushsides           12077/65536       96616/524288   (18.4%) 
+planes                2408/65536       48160/1310720  ( 3.7%) 
+vertexes              9559/65536      114708/786432   (14.6%) 
+nodes                 2433/65536       77856/2097152  ( 3.7%) 
+texinfos              1110/12288       79920/884736   ( 9.0%) 
+texdata                127/2048         4064/65536    ( 6.2%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5643/65536      316008/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3497/65536      195832/3670016  ( 5.3%) 
+leaves                2447/65536       78304/2097152  ( 3.7%) 
+leaffaces             7170/65536       14340/131072   (10.9%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42461/512000     169844/2048000  ( 8.3%) 
+edges                26527/256000     106108/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4524704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      102792/393216   (26.1%) 
+LDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+HDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+LDR leaf ambient     12017/65536      336476/1835008  (18.3%) 
+HDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1243587/4194304  (29.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17121
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+17 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1243587 bytes)
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1364 texinfos to 1110
+Reduced 152 texdatas to 127 (5005 bytes to 3794)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 11
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5643 faces
+1168077 square feet [168203104.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5643 patches before subdivision
+99255 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11521797, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(845897, 461156, 326725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192171, 97090, 63954)
+Build Patch/Sample Hash Table(s).....Done<0.0158 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes               1892/8192        22704/98304    (23.1%) 
+brushsides           12077/65536       96616/524288   (18.4%) 
+planes                2408/65536       48160/1310720  ( 3.7%) 
+vertexes              9559/65536      114708/786432   (14.6%) 
+nodes                 2433/65536       77856/2097152  ( 3.7%) 
+texinfos              1110/12288       79920/884736   ( 9.0%) 
+texdata                127/2048         4064/65536    ( 6.2%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5643/65536      316008/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3497/65536      195832/3670016  ( 5.3%) 
+leaves                2447/65536       78304/2097152  ( 3.7%) 
+leaffaces             7170/65536       14340/131072   (10.9%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42461/512000     169844/2048000  ( 8.3%) 
+edges                26527/256000     106108/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4524704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      102792/393216   (26.1%) 
+LDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+HDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+LDR leaf ambient     12017/65536      336476/1835008  (18.3%) 
+HDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1243587/4194304  (29.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17121
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1243587 bytes)
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1364 texinfos to 1110
+Reduced 152 texdatas to 127 (5005 bytes to 3794)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 11
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5643 faces
+1168077 square feet [168203104.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5643 patches before subdivision
+99255 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11521797, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(845897, 461156, 326725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192171, 97090, 63954)
+Build Patch/Sample Hash Table(s).....Done<0.0152 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes               1892/8192        22704/98304    (23.1%) 
+brushsides           12077/65536       96616/524288   (18.4%) 
+planes                2408/65536       48160/1310720  ( 3.7%) 
+vertexes              9559/65536      114708/786432   (14.6%) 
+nodes                 2433/65536       77856/2097152  ( 3.7%) 
+texinfos              1110/12288       79920/884736   ( 9.0%) 
+texdata                127/2048         4064/65536    ( 6.2%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5643/65536      316008/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3497/65536      195832/3670016  ( 5.3%) 
+leaves                2447/65536       78304/2097152  ( 3.7%) 
+leaffaces             7170/65536       14340/131072   (10.9%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42461/512000     169844/2048000  ( 8.3%) 
+edges                26527/256000     106108/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4524704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      102794/393216   (26.1%) 
+LDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+HDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+LDR leaf ambient     12017/65536      336476/1835008  (18.3%) 
+HDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1243587/4194304  (29.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17121
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Patching WVT material: maps/cp_fodfort/nature/blendgroundtograss004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 496 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "misc/sign_health_pickup" not found.
+material "signs/sign044_red" not found.
+material "pl_halfacre/patch010" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1243587 bytes)
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1364 texinfos to 1110
+Reduced 152 texdatas to 127 (5005 bytes to 3794)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+Wrote ZIP buffer, estimated size 23757, actual size 17245
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 11
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.prt
+ 929 portalclusters
+2273 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 43955 visible clusters (7.98%)
+Total clusters visible: 550860
+Average clusters visible: 592
+Building PAS...
+Average clusters audible: 922
+visdatasize:213330  compressed from 222960
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+5643 faces
+1168077 square feet [168203104.00 square inches]
+10 Displacements
+5806 Square Feet [836182.69 Square Inches]
+5643 patches before subdivision
+99255 patches after subdivision
+126 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 11521797, max 984
+transfer lists:  87.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(845897, 461156, 326725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(192171, 97090, 63954)
+Build Patch/Sample Hash Table(s).....Done<0.0153 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  13/1024          624/49152    ( 1.3%) 
+brushes               1892/8192        22704/98304    (23.1%) 
+brushsides           12077/65536       96616/524288   (18.4%) 
+planes                2408/65536       48160/1310720  ( 3.7%) 
+vertexes              9559/65536      114708/786432   (14.6%) 
+nodes                 2433/65536       77856/2097152  ( 3.7%) 
+texinfos              1110/12288       79920/884736   ( 9.0%) 
+texdata                127/2048         4064/65536    ( 6.2%) 
+dispinfos               10/0            1760/0        ( 0.0%) 
+disp_verts            2890/0           57800/0        ( 0.0%) 
+disp_tris             5120/0           10240/0        ( 0.0%) 
+disp_lmsamples       18188/0           18188/0        ( 0.0%) 
+faces                 5643/65536      316008/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3497/65536      195832/3670016  ( 5.3%) 
+leaves                2447/65536       78304/2097152  ( 3.7%) 
+leaffaces             7170/65536       14340/131072   (10.9%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            42461/512000     169844/2048000  ( 8.3%) 
+edges                26527/256000     106108/1024000  (10.4%) 
+LDR worldlights        126/8192        11088/720896   ( 1.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips            668/32768        6680/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         13494/65536       26988/131072   (20.6%) 
+cubemapsamples          38/1024          608/16384    ( 3.7%) 
+overlays                35/512         12320/180224   ( 6.8%) 
+LDR lightdata         [variable]     4524704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      213330/16777216 ( 1.3%) 
+entdata               [variable]      102793/393216   (26.1%) 
+LDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+HDR ambient table     2447/65536        9788/262144   ( 3.7%) 
+LDR leaf ambient     12017/65536      336476/1835008  (18.3%) 
+HDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/17156    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/23708    ( 0.0%) 
+pakfile               [variable]       17245/0        ( 0.0%) 
+physics               [variable]     1243587/4194304  (29.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 17121
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.bsp
+16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_fodfort.vmf
+material "dev/dev_measuregeneric01_purple" not found.
+Material not found!: DEV/DEV_MEASUREGENERIC01_PURPLE
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "pl_barnblitz/woodwall_darkbrown001b" not found.
+Material not found!: PL_BARNBLITZ/WOODWALL_DARKBROWN001B
+material "props/metalduct001a_red" not found.
+Material not found!: PROPS/METALDUCT001A_RED
+material "metal/island_gantry_metal001_edge_blue" not found.
+Material not found!: METAL/ISLAND_GANTRY_METAL001_EDGE_BLUE
+material "concrete/concretewall012z" not found.
+Material not found!: CONCRETE/CONCRETEWALL012Z
+material "concrete/concretewall011b_01" not found.
+Material not found!: CONCRETE/CONCRETEWALL011B_01
+material "concrete/concretewall_databank_trim003" not found.
+Material not found!: CONCRETE/CONCRETEWALL_DATABANK_TRIM003
+material "concrete/concretewall002_of001c" not found.
+Material not found!: CONCRETE/CONCRETEWALL002_OF001C
+Error loading studio model "models/props_soho/door002.mdl"!
+Error loading studio model "models/props_doomsday/western_wood_door001.mdl"!
+Static prop models/props_spytech/intercom.mdl outside the map (-832.00, 1856.00, 72.00)
+Wrote ZIP buffer, estimated size 23991, actual size 17345
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 8

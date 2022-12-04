@@ -1,0 +1,144 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\pf2\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_warpath.vmf
+material "nature/snowrockwall005" not found.
+Material not found!: NATURE/SNOWROCKWALL005
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/cp_warpath/nature/blendrockground007_wvt_patch
+Patching WVT material: maps/cp_warpath/nature/blendrocksand004a_wvt_patch
+Patching WVT material: maps/cp_warpath/nature/blendsandrock004a_wvt_patch
+Patching WVT material: maps/cp_warpath/nature/blendgroundtogravel001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 210 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_warpath.prt...Building visibility clusters...
+done (0)
+material "skybox/sky_dirtwork_01rt" not found.
+Can't load skybox file skybox/sky_dirtwork_01 to build the default cubemap!
+Can't load skybox file skybox/sky_dirtwork_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (2880206 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3037 texinfos to 1383
+Reduced 126 texdatas to 106 (3335 bytes to 2472)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_warpath.bsp
+Wrote ZIP buffer, estimated size 10529, actual size 7769
+1 second elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+16 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_warpath.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_warpath.prt
+1442 portalclusters
+4484 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1050 visible clusters (0.44%)
+Total clusters visible: 236020
+Average clusters visible: 163
+Building PAS...
+Average clusters audible: 451
+visdatasize:220083  compressed from 530656
+writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_warpath.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_warpath.bsp
+5723 faces
+1 degenerate faces
+767292 square feet [110490064.00 square inches]
+296 Displacements
+361402 Square Feet [52041920.00 Square Inches]
+5722 patches before subdivision
+27308 patches after subdivision
+151 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1086634, max 399
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(102850, 66446, 48275)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18338, 11778, 8129)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4085, 2530, 1626)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(971, 591, 352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(250, 147, 80)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(66, 37, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 10, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0080 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 32 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 101/1024         4848/49152    ( 9.9%) 
+brushes               2064/8192        24768/98304    (25.2%) 
+brushsides           14554/65536      116432/524288   (22.2%) 
+planes                8870/65536      177400/1310720  (13.5%) 
+vertexes             11033/65536      132396/786432   (16.8%) 
+nodes                 3722/65536      119104/2097152  ( 5.7%) 
+texinfos              1383/12288       99576/884736   (11.3%) 
+texdata                106/2048         3392/65536    ( 5.2%) 
+dispinfos              296/0           52096/0        ( 0.0%) 
+disp_verts           12704/0          254080/0        ( 0.0%) 
+disp_tris            18784/0           37568/0        ( 0.0%) 
+disp_lmsamples      279544/0          279544/0        ( 0.0%) 
+faces                 5723/65536      320488/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4478/65536      250768/3670016  ( 6.8%) 
+leaves                3824/65536      122368/2097152  ( 5.8%) 
+leaffaces             6535/65536       13070/131072   (10.0%) 
+leafbrushes           5199/65536       10398/131072   ( 7.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            44646/512000     178584/2048000  ( 8.7%) 
+edges                27640/256000     110560/1024000  (10.8%) 
+LDR worldlights        151/8192        13288/720896   ( 1.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            646/32768        6460/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10275/65536       20550/131072   (15.7%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     2683288/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      220083/16777216 ( 1.3%) 
+entdata               [variable]      185009/393216   (47.1%) 
+LDR ambient table     3824/65536       15296/262144   ( 5.8%) 
+HDR ambient table     3824/65536       15296/262144   ( 5.8%) 
+LDR leaf ambient     20633/65536      577724/1835008  (31.5%) 
+HDR leaf ambient      3824/65536      107072/1835008  ( 5.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4004     ( 0.0%) 
+pakfile               [variable]        7769/0        ( 0.0%) 
+physics               [variable]     2880206/4194304  (68.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 15214
+Writing c:\program files (x86)\steam\steamapps\sourcemods\pf2\maps\cp_warpath.bsp
+22 seconds elapsed
