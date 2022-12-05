@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/flag/flagpole"
+	"$bumpmap" "models/flag/flagpole_normal"
+
+	"$bumpmapalphaphongmask"		"1"
+
+	"$phong" "1"
+	"$phongfresnelranges"		"[.25 .25 .25]"
+	"$phongexponent" "15"
+	"$phongboost" ".5"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "15"	
+	"$rimlightboost" "1"
+}

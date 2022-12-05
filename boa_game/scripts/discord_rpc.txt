@@ -1,0 +1,49 @@
+"Discord"
+{
+
+	//You should try and keep the image and map name constant
+	//since that is the best practice for this
+	//but you can name the image name what ever you want since it's
+	//the name of the image that discord uses to call the image from the app
+	"Maps"
+	{
+		//Map_name  		//Image_name
+		"pf_target"		"pf_target"
+		"tc_hydro"		"tc_hydro"
+		"cp_well"		"cp_well"
+		"cp_granary"		"cp_granary"
+		"cp_powerhouse"		"cp_powerhouse"
+		"ad_dustbowl"		"ad_dustbowl"
+		"ad_dustbowl2"		"ad_dustbowl2"
+		"ad_gravelpit"		"ad_gravelpit"
+		"ctf_2fort"		"ctf_2fort"
+		"ctf_well"		"ctf_well"
+		"ctf_badlands"		"ctf_badlands"
+		"arena_well"	"arena_well"
+		"pl_goldrush"	"pl_goldrush"
+		"cp_badlands"	"cp_badlands"
+		"koth_crossover"	"koth_crossover"
+		"tad_hydro"	"tad_hydro"
+	}
+	
+	"Map_name"
+	{
+		"pf_target"		"Target"
+		"tc_hydro"		"Hydro"
+		"cp_well"		"Well (CP)"
+		"cp_granary"		"Granary"
+		"cp_powerhouse"		"Powerhouse"
+		"ad_dustbowl"		"Dustbowl"
+		"ad_dustbowl2"		"Dustbowl2"
+		"ad_gravelpit"		"Gravelpit"
+		"ctf_2fort"		"2Fort"
+		"ctf_well"		"Well (CTF)"
+		"ctf_badlands"		"Badlands (CTF)"
+		"arena_well"	"Well (Arena)"
+		"pl_goldrush"	"Goldrush"
+		"cp_badlands"	"Badlands (CP)"
+		"koth_crossover"	"Crossover"
+		"tad_hydro"	"Hydro (TAD)"
+	}       
+
+}

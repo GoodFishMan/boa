@@ -1,0 +1,13 @@
+ad_dustbowl
+ad_gravelpit
+arena_well
+cp_badlands
+cp_granary
+cp_powerhouse
+cp_well
+ctf_2fort
+ctf_badlands
+ctf_well
+koth_crossover
+pl_goldrush
+tc_hydro

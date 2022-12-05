@@ -1,0 +1,8 @@
+"Spritecard"
+{
+	"$basetexture" "effects/pyroflame1/tinysidesprite256_ad0"
+	"$basetexture2" "effects/pyroflame1/tinysidesprite256_ad0"
+	"$translucent" 1
+//	"$additive" 1
+	"$addbasetexture2" "2.5"
+}

@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "badlands06/dirtground_canyon_test"
+	"$basetexture2" "badlands06/grass_02_test"
+	"%tooltexture" "Nature/blendgrass_canyon02_tooltexture"
+	 "%detailtype" "tf_grass"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+
+
+}

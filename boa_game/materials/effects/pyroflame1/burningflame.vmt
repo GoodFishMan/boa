@@ -1,0 +1,11 @@
+"Spritecard"
+{
+	"$basetexture" "effects/pyroflame1/topsprite256_ac0.vtf"
+	"$basetexture2" "effects/pyroflame1/topsprite256_ac0.vtf"
+	"$translucent" 1
+//	"$additive" 1
+	"$addbasetexture2" "1"
+//	"$addbasetexture2" "1"
+	"$overbrightfactor" "4"
+	"$depthblend" "1"
+}

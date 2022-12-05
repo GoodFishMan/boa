@@ -1,0 +1,7 @@
+"Spritecard"
+{
+	"$basetexture"	"effects/questionmark"
+	"$translucent"	1
+	"$vertexcolor" 	1
+	"$vertexalpha"	1
+}
