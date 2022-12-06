@@ -24,6 +24,7 @@ PlayerClass
 	"weapon1"		"TF_WEAPON_SHOVEL"
 	"weapon2"		"TF_WEAPON_SHOTGUN_SOLDIER"
 	"weapon3"		"TF_WEAPON_ROCKETLAUNCHER"
+	"weapon4"		"TF_WEAPON_SMG"
 	
 	"primary"
 	{
@@ -31,7 +32,8 @@ PlayerClass
 	}
 	"secondary"
 	{
-		"TF_WEAPON_SHOTGUN_SOLDIER"	"1"
+		"TF_WEAPON_SHOTGUN_SOLDIER"	"0"
+		"TF_WEAPON_SMG"	"1"
 	}
 	"melee"
 	{
@@ -43,7 +45,7 @@ PlayerClass
 	AmmoMax
 	{
 		"tf_ammo_primary"	"6"
-		"tf_ammo_secondary"	"32"
+		"tf_ammo_secondary"	"90"
 		"tf_ammo_metal"		"100"
 		"tf_ammo_grenades1"	"4"
 		"tf_ammo_grenades2"	"0"

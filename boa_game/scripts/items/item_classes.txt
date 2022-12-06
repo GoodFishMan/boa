@@ -248,7 +248,7 @@
 		"attach_to_hands"	"1"
 		"used_by_classes"
 		{
-			"soldier"		"1"
+			"soldier"		"0"
 		}
 	}
 	
@@ -351,7 +351,8 @@
 		"min_viewmodel_offset"					"10 0 -7"
 		"used_by_classes"
 		{
-			"sniper"		"1"
+			"sniper"		"0"
+			"soldier"		"1"
 		}
 	}
 	
@@ -369,6 +370,8 @@
 		"used_by_classes"
 		{
 			"medic"		"1"
+			"engineer"		"1"
+			"sniper"		"1"
 		}
 	}
 
@@ -389,22 +392,6 @@
 		}
 	}
 
-	"TF_WEAPON_SMG_ENGINEER"
-	{
-		"item_class"		"tf_weapon_smg_engineer"
-		"item_type_name"	"#TF_Weapon_SMG"
-		"item_name"			"#TF_Weapon_SMG"
-		"item_slot"			"secondary"
-		"item_quality"		"normal"
-		"model_inventory"	"models/weapons/w_models/w_smg_medic.mdl"
-		"model_player"		"models/weapons/w_models/w_smg_medic.mdl"
-		"attach_to_hands"	"1"
-		"min_viewmodel_offset"					"10 0 -7"
-		"used_by_classes"
-		{
-			"engineer"		"1"
-		}
-	}
 	
 	"TF_WEAPON_ROCKETLAUNCHER"
 	{
@@ -543,7 +530,7 @@
 		"min_viewmodel_offset"					"10 0 -6"
 		"used_by_classes"
 		{
-			"spy"		"1"
+			"spy"		"0"
 		}
 	}
 	
@@ -837,23 +824,23 @@
 	// ADD NEW WEAPONS HERE! FOR THE LOVE OF GOD DON'T PUT ANYTHING BELOW THIS LINE!!!
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	
-	//"TF_WEAPON_PISTOL_SPY"
-	//{
-	//	"item_class"		"tf_weapon_pistol_spy"
-	//	"item_type_name"	"#TF_Weapon_PistolSpy"
-	//	"item_name"			"#TF_Weapon_PistolSpy"
-	//	"item_slot"			"primary"
-	//	"item_quality"		"normal"
-	//	"anim_slot"			"secondary"
-	//	"model_inventory"	"models/weapons/w_models/w_pistol_spy.mdl"
-	//	"model_player"		"models/weapons/w_models/w_pistol_spy.mdl"
-	//	"attach_to_hands"	"1"
-	//	"min_viewmodel_offset"					"10 0 -6"
-	//	"used_by_classes"
-	//	{
-	//		"spy"		"1"
-	//	}
-	//}
+	"TF_WEAPON_PISTOL_SPY"
+	{
+		"item_class"		"tf_weapon_pistol_spy"
+		"item_type_name"	"#TF_Weapon_PistolSpy"
+		"item_name"			"#TF_Weapon_PistolSpy"
+		"item_slot"			"primary"
+		"item_quality"		"normal"
+		"anim_slot"			"secondary"
+		"model_inventory"	"models/weapons/w_models/w_pistol_spy.mdl"
+		"model_player"		"models/weapons/w_models/w_pistol_spy.mdl"
+		"attach_to_hands"	"1"
+		"min_viewmodel_offset"					"10 0 -6"
+		"used_by_classes"
+		{
+			"spy"		"1"
+		}
+	}
 }
 
 

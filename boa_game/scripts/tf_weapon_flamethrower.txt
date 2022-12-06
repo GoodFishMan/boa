@@ -9,8 +9,8 @@ WeaponData
 	"UsesArms"				"1"
 	
 	// Attributes TF.
-	"Damage"				"180"	// per second
-	"AmmoPerShot"			"10"
+	"Damage"				"110"	// per second
+	"AmmoPerShot"			"30"
 	"Secondary_Damage"		"20"
 	"Secondary_AmmoPerShot"	"9999" //20
 	"DamageRadius"			"198"

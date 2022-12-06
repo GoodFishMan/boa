@@ -21,7 +21,7 @@ PlayerClass
 
 	// Weapons.
 	"weapon1"		"TF_WEAPON_KNIFE"
-	"weapon2"		"TF_WEAPON_REVOLVER"
+	"weapon2"		"TF_WEAPON_PISTOL_SPY"
 	"weapon3"		"TF_WEAPON_TRANQ"
 	"weapon4"		"TF_WEAPON_PDA_SPY"
 	"weapon5"		"TF_WEAPON_INVIS"
@@ -31,7 +31,6 @@ PlayerClass
 	
 	"primary"
 	{
-		"TF_WEAPON_REVOLVER"	"1"
 		"TF_WEAPON_PISTOL_SPY"	"1"
 	}
 	"secondary"

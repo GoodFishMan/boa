@@ -20,11 +20,11 @@ WeaponData
 	"TimeIdle"					"5.0"
 	"TimeIdleEmpty"				"0.25"
 	"TimeReloadStart"			"0.1"
-	"TimeReload"				"0.5"
+	"TimeReload"				"0.4"
 	"HasTeamSkins_Viewmodel"	"1"
 	
 	"primary_ammo"				"TF_AMMO_SECONDARY"
-	"clip_size"					"6"
+	"clip_size"					"3"
 	"AmmoPerShot"				"1"
 	
 	"ProjectileType"			"projectile_bullet"

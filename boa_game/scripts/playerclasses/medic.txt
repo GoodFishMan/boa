@@ -45,7 +45,7 @@ PlayerClass
 	AmmoMax
 	{
 		"tf_ammo_primary"	"100"
-		"tf_ammo_secondary"	"300"
+		"tf_ammo_secondary"	"48"
 		"tf_ammo_metal"		"100"
 		"tf_ammo_grenades1"	"2"
 		"tf_ammo_grenades2"	"2"

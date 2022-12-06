@@ -13,17 +13,17 @@ WeaponData
 	"Range"			"0"
 	"BulletsPerShot"	"1"
 	"Spread"		"0.0"
-	"PunchAngle"		"0.0"
+	"PunchAngle"		"5.0"
 	"TimeFireDelay"		"1.0"
 	"TimeIdle"		"0.9"
 	"TimeIdleEmpty"		"0.9"
 	"TimeReloadStart"	"0.1"
-	"TimeReload"		"1.2"
+	"TimeReload"		"1.5"
 	
 	"HasTeamSkins_Viewmodel"	"1"
 	
 	"ProjectileType"	"projectile_rocket"
-	"ProjectileSpeed"	"1300" //1300
+	"ProjectileSpeed"	"1500" //1300
 
 	"primary_ammo"		"TF_AMMO_PRIMARY"
 	"secondary_ammo"	"None"

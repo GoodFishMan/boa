@@ -8,27 +8,27 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 		
 	// Attributes TF.
-	"Damage"		"10"
-	"Range"			"8192"
+	"Damage"		"8"
+	"Range"			"4096"
 	"BulletsPerShot"	"1"
-	"Spread"		"0.045"
+	"Spread"		"0.035"
 	"TimeIdle"		"10.0"
-	"PunchAngle"			"0.5"
+	"PunchAngle"		"0.2"
 	"TimeIdleEmpty"		"1.0"
-	"TimeFireDelay"		"0.06"
+	"TimeFireDelay"		"0.1"
 	"ProjectileType"	"projectile_bullet"
 	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
 	"UseRapidFireCrits"	"1"
 	"HasTeamSkins_Viewmodel"		"1"
 
 	// Ammo & Clip.
-	"primary_ammo"		"TF_AMMO_PRIMARY"
+	"primary_ammo"		"TF_AMMO_SECONDARY"
 	"secondary_ammo"	"None"
-	"clip_size"			"20"
+	"clip_size"			"16"
 
 	// Buckets.
-	"bucket"		"0"
-	"bucket_position"	"0"
+	"bucket"		"1"
+	"bucket_position"	"1"
 	"TracerEffect"		"bullet_pistol_tracer01"
 
 
